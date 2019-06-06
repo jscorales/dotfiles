@@ -1,0 +1,53 @@
+{
+    "window.menuBarVisibility": "toggle",
+    "workbench.startupEditor": "none",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "'DejaVu Sans Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "debug.allowBreakpointsEverywhere": true,
+    "debug.javascript.autoAttachFilter": "onlyWithFlag",
+    "workbench.colorCustomizations": {
+        "tab.inactiveBackground": "#252526",
+        "tab.activeBackground": "#333333",
+        "tab.activeBorder": "#4A88C7",
+        "editor.lineHighlightBackground": "#383635",
+        "editor.background": "#161616",
+        "activityBar.background": "#161616",
+        "activityBarBadge.background": "#007acc85",
+        "scrollbar.shadow": "#161616",
+        "sideBar.background": "#191919",
+        "statusBar.foreground": "#bbbbbb",
+        "statusBar.background": "#252526",
+        "statusBar.debuggingBackground": "#252526",
+        "statusBar.noFolderBackground": "#252526"
+    },
+    "workbench.colorTheme": "Monokai++",
+    "telemetry.enableTelemetry": false,
+    "search.exclude": {
+        "**/node_modules": false,
+        "**/bower_components": true,
+        "**/*.code-search": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/.hg/store/**": true
+    },
+    "Lua.telemetry.enable": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "cSpell.userWords": [
+        "navigations",
+        "varchar"
+    ],
+    "glassit.alpha": 245
+}
